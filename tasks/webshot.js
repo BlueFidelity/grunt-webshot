@@ -39,6 +39,10 @@ module.exports = function (grunt) {
 		// lets go
 		webshot(site, savePath, options, function(err) {
 			if (err) {
+				grunt.log.writeln('webshot warn: ' + err);
+			}
+		}, function(err) {
+			if (err) {
 				grunt.log.writeln('webshot error:');
 				grunt.fail.warn(err);
 				done(false);
