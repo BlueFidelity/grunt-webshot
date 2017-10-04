@@ -11,4 +11,5 @@ Gruntfile.js
 /node_modules
 /media
 /test
+/dbg
 /*.tgz

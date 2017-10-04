@@ -17,7 +17,7 @@ module.exports = function (grunt) {
 		var done = this.async();
 
 		// late init webshot
-		var webshot = require('webshot');
+		var webshot = require('bfn-webshot');
 
 		if (!options.site) {
 			grunt.fail.warn('undefined site');
