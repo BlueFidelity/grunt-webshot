@@ -1,25 +1,17 @@
 {
-  "name": "grunt-webshot",
+  "name": "bfn-grunt-webshot",
   "description": "Render screenshots of webpages and local html",
-  "version": "0.3.0",
-  "homepage": "https://github.com/Bartvds/grunt-webshot",
-  "author": {
-    "name": "Bart van der Schoor",
-    "url": "https://github.com/Bartvds"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Bartvds/grunt-webshot"
-  },
-  "bugs": {
-    "url": "https://github.com/Bartvds/grunt-webshot/issues"
-  },
-  "licenses": [
+  "version": "1.0.0",
+  "homepage": "https://www.bluefidelity.com/",
+  "author": "Blue Fidelity Inc. (https://www.bluefidelity.com/)",
+  "license": "MIT",
+  "maintainers": [
     {
-      "type": "MIT",
-      "url": "https://github.com/Bartvds/grunt-webshot/blob/master/LICENSE-MIT"
+      "email": "ouellettebrand@gmail.com",
+      "name": "brandouellette"
     }
   ],
+  "repository": "BlueFidelity/grunt-webshot",
   "keywords": [
     "gruntplugin",
     "webshot",
