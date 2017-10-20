@@ -1,16 +1,10 @@
 {
   "name": "bfn-grunt-webshot",
   "description": "Render screenshots of webpages and local html",
-  "version": "1.0.8",
+  "version": "1.1.0",
   "homepage": "https://www.bluefidelity.com/",
   "author": "Blue Fidelity Inc. (https://www.bluefidelity.com/)",
   "license": "MIT",
-  "maintainers": [
-    {
-      "email": "ouellettebrand@gmail.com",
-      "name": "brandouellette"
-    }
-  ],
   "repository": "BlueFidelity/grunt-webshot",
   "keywords": [
     "gruntplugin",
