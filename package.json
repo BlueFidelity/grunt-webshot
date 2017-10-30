@@ -1,7 +1,7 @@
 {
   "name": "bfn-grunt-webshot",
   "description": "Render screenshots of webpages and local html",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "homepage": "https://www.bluefidelity.com/",
   "author": "Blue Fidelity Inc. (https://www.bluefidelity.com/)",
   "license": "MIT",
