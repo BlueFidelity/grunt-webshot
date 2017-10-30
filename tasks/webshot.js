@@ -51,8 +51,8 @@ module.exports = function (grunt) {
 			}, function(err) {
 				if (err) {
 					grunt.log.writeln('webshot error:');
-					if (retryOptions.maxAttempts && attempt < retryOptions.maxAttempts && ('' + err) === 'Error: PhantomJS did not respond within the given timeout setting.') {
-						grunt.log.writeln('webshot warning: last attempt failed');
+					if (retryOptions.maxAttempts && attempt < retryOptions.maxAttempts && (('' + err) === 'Error: PhantomJS did not respond within the given timeout setting.' || ('' + err) === 'Error: PhantomJS exited with return value 1')) {
+						grunt.log.writeln('webshot warning: last attempt failed - '+ err);
 						setTimeout(function() {
 							runWebshot(attempt++);
 						}, attempt * retryOptions.waitTime);
